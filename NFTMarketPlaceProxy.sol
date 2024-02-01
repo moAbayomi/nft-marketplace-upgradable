@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.18;
 
-import "./NFTV1.sol";
-import "./NFTV2.sol";
+import "./NFTMarketplaceV1.sol";
+import "./NFTMarketplaceV2.sol";
 
 contract NFTMarketPlaceProxy {
     address public implementation;
