@@ -8,7 +8,7 @@ import "./NFTMarketplaceV2.sol";
 contract NFTMarketPlaceProxy {
     address public implementation;
 
-    constructor(address _implementation) {
+    function setImpl(address _implementation) public {
         implementation = _implementation;
     }
 
